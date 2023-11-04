@@ -4,8 +4,8 @@
 using namespace std;
 
 int N, M, K, MOD = 1e9 + 7;
-long long adj[101][101][101];
-long long freq[101];
+long long adj[101][101][101]; // adj[k][i][j] = number of times i and j are adjacent after k iterations
+long long freq[101]; // freq[i] = number of times i appears in the array
 int a[2000];
 vector<pair<int, int>> ins;
 
